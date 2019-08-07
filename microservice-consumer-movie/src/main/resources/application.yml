@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: microservice-consumer-movie
+server:
+  port: 10003
+user:
+  userServicePath: http://localhost:10002/simple/
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://user:password123@localhost:10001/eureka
+  instance:
+    prefer-ip-address: true
