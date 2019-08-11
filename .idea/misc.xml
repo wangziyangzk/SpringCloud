@@ -13,6 +13,8 @@
         <option value="$PROJECT_DIR$/microservice-consumer-movie-feign/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-gateway-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-hystrix-turbine/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-config-client-bus/pom.xml" />
       </list>
     </option>
   </component>

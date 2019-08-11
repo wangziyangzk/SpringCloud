@@ -1,0 +1,18 @@
+spring:
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: microservice-config-server-eureka
+      uri: http://localhost:8080
+      label: master
+      profile: dev
+  application:
+    name: foobar
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://user:password123@localhost:10001/eureka
+  instance:
+    prefer-ip-address: true
