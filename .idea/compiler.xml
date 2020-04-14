@@ -20,8 +20,6 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="microservice-config-client1" target="1.8" />
-      <module name="microservice-config-server1" target="1.8" />
       <module name="microservie-config-server" target="1.8" />
     </bytecodeTargetLevel>
   </component>
